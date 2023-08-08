@@ -1,0 +1,56 @@
+/* styling */
+body {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    align-items: center;
+}
+
+#jokes {
+    display:flex;
+    flex-flow:column;
+    align-items: center;
+    margin-bottom:25px;
+}
+
+#punchline {
+    display:none;
+}
+
+img {
+    width: 500px; height: 500px;
+}
+
+#buttons{
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+}
+
+#yesButton{
+    height: 30px;
+    width: 60px;
+    border: solid 1px red;
+}
+
+#noButton{
+    height: 30px;
+    width: 60px;
+    border: solid 1px red;
+}
+
+#reveal {
+    margin-top: 25px;
+    margin-bottom:25px;
+}
+
+h1 {
+    font-size: 100px;
+    margin-bottom:5px;
+}
+
+p {
+    font-size: 50px;
+    margin-top: 0px;
+    margin-bottom:0px;
+}
